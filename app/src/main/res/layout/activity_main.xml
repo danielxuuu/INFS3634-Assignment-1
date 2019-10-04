@@ -26,12 +26,17 @@
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/sydney"
+                layout="@layout/shanghai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <include
-                layout="@layout/sydney"
+                layout="@layout/ny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                layout="@layout/tokyo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -48,15 +53,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#FFA500"
             android:onClick="hour24Button"
-            android:text="24 Hour" />
+            android:text="24 Hour"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="#FFA500"
             android:onClick="hour12Button"
-            android:text="12 hour" />
+            android:text="12 hour"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         TextView parisTime=findViewById(R.id.textViewTimeParis);
         parisTime.setText(set24Time("Europe/Paris"));
 
-/*        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
         shanghaiTime.setText(set24Time("Asia/Shanghai"));
 
         TextView nyTime=findViewById(R.id.textViewTimeNY);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
         tokyoTime.setText(set24Time("Asia/Tokyo"));
-*/
+
 
 
 
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         TextView parisTime=findViewById(R.id.textViewTimeParis);
         parisTime.setText(set12Time("Europe/Paris"));
 
-/*        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
         shanghaiTime.setText(set12Time("Asia/Shanghai"));
 
         TextView nyTime=findViewById(R.id.textViewTimeNY);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
         tokyoTime.setText(set12Time("Asia/Tokyo"));
 
-*/
+
     }
 
     public void hour24Button(View view){
@@ -62,15 +62,15 @@ public class MainActivity extends AppCompatActivity {
 
         TextView parisTime=findViewById(R.id.textViewTimeParis);
         parisTime.setText(set24Time("Europe/Paris"));
-//
-//        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
-//        shanghaiTime.setText(set24Time("Asia/Shanghai"));
-//
-//        TextView nyTime=findViewById(R.id.textViewTimeNY);
-//        nyTime.setText(set24Time("America/New_York"));
-//
-//        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
-//        tokyoTime.setText(set24Time("Asia/Tokyo"));
+
+        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+        shanghaiTime.setText(set24Time("Asia/Shanghai"));
+
+        TextView nyTime=findViewById(R.id.textViewTimeNY);
+        nyTime.setText(set24Time("America/New_York"));
+
+        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
+        tokyoTime.setText(set24Time("Asia/Tokyo"));
     }
 
     private String set12Time(String city){
