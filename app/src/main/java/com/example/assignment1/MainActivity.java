@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+//Author: Daniel Xu October 2019
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
