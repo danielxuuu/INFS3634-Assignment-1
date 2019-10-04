@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
         sydneyTime.setText(set24Time("Australia/Sydney"));
 
-
         TextView parisTime=findViewById(R.id.textViewTimeParis);
         parisTime.setText(set24Time("Europe/Paris"));
 
@@ -33,9 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
         tokyoTime.setText(set24Time("Asia/Tokyo"));
-
-
-
 
     }
 
