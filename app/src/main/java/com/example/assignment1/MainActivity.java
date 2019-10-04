@@ -18,8 +18,80 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Thread t = new Thread(){
-            @Override
+
+    }
+
+    public void hour12Button(View view){
+        TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
+        sydneyTime.setText(set12Time("Australia/Sydney"));
+
+        TextView parisTime=findViewById(R.id.textViewTimeParis);
+        parisTime.setText(set12Time("Europe/Paris"));
+
+        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+        shanghaiTime.setText(set12Time("Asia/Shanghai"));
+
+        TextView nyTime=findViewById(R.id.textViewTimeNY);
+        nyTime.setText(set12Time("America/New_York"));
+
+        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
+        tokyoTime.setText(set12Time("Asia/Tokyo"));
+
+ /*       Thread t = new Thread(){
+            public void run(){
+                try {
+                    while(!isInterrupted()){
+                        Thread.sleep(1000);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
+                                sydneyTime.setText(set12Time("Australia/Sydney"));
+
+                                TextView parisTime=findViewById(R.id.textViewTimeParis);
+                                parisTime.setText(set12Time("Europe/Paris"));
+
+                                TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+                                shanghaiTime.setText(set12Time("Asia/Shanghai"));
+
+                                TextView nyTime=findViewById(R.id.textViewTimeNY);
+                                nyTime.setText(set12Time("America/New_York"));
+
+                                TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
+                                tokyoTime.setText(set12Time("Asia/Tokyo"));
+                            }
+                        });
+
+                    }
+                } catch (InterruptedException e){
+                }
+            }
+
+        }; t.start();
+
+  */
+
+    }
+
+
+
+    public void hour24Button(View view){
+        TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
+        sydneyTime.setText(set24Time("Australia/Sydney"));
+
+        TextView parisTime=findViewById(R.id.textViewTimeParis);
+        parisTime.setText(set24Time("Europe/Paris"));
+
+        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
+        shanghaiTime.setText(set24Time("Asia/Shanghai"));
+
+        TextView nyTime=findViewById(R.id.textViewTimeNY);
+        nyTime.setText(set24Time("America/New_York"));
+
+        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
+        tokyoTime.setText(set24Time("Asia/Tokyo"));
+
+/*        Thread t = new Thread(){
             public void run(){
                 try {
                     while(!isInterrupted()){
@@ -50,46 +122,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }; t.start();
-
-
-
-    }
-
-    public void hour12Button(View view){
-        TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
-        sydneyTime.setText(set12Time("Australia/Sydney"));
-
-        TextView parisTime=findViewById(R.id.textViewTimeParis);
-        parisTime.setText(set12Time("Europe/Paris"));
-
-        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
-        shanghaiTime.setText(set12Time("Asia/Shanghai"));
-
-        TextView nyTime=findViewById(R.id.textViewTimeNY);
-        nyTime.setText(set12Time("America/New_York"));
-
-        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
-        tokyoTime.setText(set12Time("Asia/Tokyo"));
-
+*/
 
     }
 
-    public void hour24Button(View view){
-        TextView sydneyTime=findViewById(R.id.textViewTimeSydney);
-        sydneyTime.setText(set24Time("Australia/Sydney"));
 
-        TextView parisTime=findViewById(R.id.textViewTimeParis);
-        parisTime.setText(set24Time("Europe/Paris"));
-
-        TextView shanghaiTime=findViewById(R.id.textViewTimeShanghai);
-        shanghaiTime.setText(set24Time("Asia/Shanghai"));
-
-        TextView nyTime=findViewById(R.id.textViewTimeNY);
-        nyTime.setText(set24Time("America/New_York"));
-
-        TextView tokyoTime=findViewById(R.id.textViewTimeTokyo);
-        tokyoTime.setText(set24Time("Asia/Tokyo"));
-    }
 
     private String set12Time(String city){
         SimpleDateFormat sdf = new SimpleDateFormat("hh:mm a z", Locale.getDefault());

@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/assignment1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/assignment1/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/assignment1/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-              <folding>
-                <element signature="e#550#1216#0" expanded="true" />
-                <element signature="e#744#1079#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1740">
+              <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -123,6 +116,9 @@
     <findStrings>
       <find>paris</find>
     </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -348,14 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/assignment1/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding>
-            <element signature="e#550#1216#0" expanded="true" />
-            <element signature="e#744#1079#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1740">
+          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
         </state>
       </provider>
     </entry>
